@@ -1,0 +1,7 @@
+{
+  "entrypoint": "net.swordcraft.",
+  "name": "ExampleExtension",
+  "version": "1.0.0",
+  "externalDependencies": {
+  }
+}
