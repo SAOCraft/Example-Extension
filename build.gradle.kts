@@ -1,7 +1,6 @@
-import org.jetbrains.kotlin.gradle.tasks.KotlinCompile
-
 plugins {
     kotlin("jvm") version "1.7.21"
+    id("com.github.johnrengelman.shadow") version "7.1.0"
 }
 
 group = "net.swordcraft"
@@ -13,7 +12,7 @@ repositories {
 }
 
 dependencies {
-        implementation("com.github.SAOCraft:Tachyon:f02b734c6b")
+    compileOnly("com.github.SAOCraft:Tachyon:-SNAPSHOT")
 }
 
 tasks {
